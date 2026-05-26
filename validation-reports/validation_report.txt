@@ -1,0 +1,322 @@
+================================================================================
+AIRFLOW DAG VALIDATION REPORT
+================================================================================
+
+Repository: DEEPAK2566/cas
+Branch: main
+Validation Date: 2024
+
+================================================================================
+VALIDATION SUMMARY
+================================================================================
+
+Overall Status: PASS
+Total Jobs Validated: 10
+Passed Jobs: 10
+Failed Jobs: 0
+
+================================================================================
+DETAILED VALIDATION RESULTS
+================================================================================
+
+--------------------------------------------------------------------------------
+JOB 1: cascade_stg_pc_details_software_prod
+--------------------------------------------------------------------------------
+Job ID: 586453114505396
+Room Name: engineering_room
+Schedule Interval: 0 10 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/cascade_stg_pc_details_software_prod/dev/cascade_stg_pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/cascade_stg_pc_details_software_prod/prod/cascade_stg_pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/cascade_stg_pc_details_software_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/cascade_stg_pc_details_software_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 2: pc_details_software_prod
+--------------------------------------------------------------------------------
+Job ID: 406975706952960
+Room Name: hpone_hpx
+Schedule Interval: 0 10 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/pc_details_software_prod/dev/pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/pc_details_software_prod/prod/pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/pc_details_software_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/pc_details_software_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 3: er_cec_prod
+--------------------------------------------------------------------------------
+Job ID: 625293020756560
+Room Name: engineering_room
+Schedule Interval: 0 10 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_cec_prod/dev/er_cec_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_cec_prod/prod/er_cec_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_cec_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_cec_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 4: er_origami_prod
+--------------------------------------------------------------------------------
+Job ID: 788812733488611
+Room Name: engineering_room
+Schedule Interval: 0 10 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_origami_prod/dev/er_origami_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_origami_prod/prod/er_origami_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_origami_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_origami_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 5: er_cse_prod
+--------------------------------------------------------------------------------
+Job ID: 801768755063589
+Room Name: engineering_room
+Schedule Interval: 0 10 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_cse_prod/dev/er_cse_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_cse_prod/prod/er_cse_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_cse_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_cse_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 6: er_ga_import_prod
+--------------------------------------------------------------------------------
+Job ID: 514005612663986
+Room Name: engineering_room
+Schedule Interval: 0 05 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_ga_import_prod/dev/er_ga_import_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_ga_import_prod/prod/er_ga_import_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ga_import_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ga_import_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 7: er_ii_enrollment_prod
+--------------------------------------------------------------------------------
+Job ID: 742507288796768
+Room Name: engineering_room
+Schedule Interval: 0 05 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_ii_enrollment_prod/dev/er_ii_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_ii_enrollment_prod/prod/er_ii_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ii_enrollment_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ii_enrollment_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 8: er_ii_rml_pet_enrollment_prod
+--------------------------------------------------------------------------------
+Job ID: 740485079743248
+Room Name: engineering_room
+Schedule Interval: 0 05 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_ii_rml_pet_enrollment_prod/dev/er_ii_rml_pet_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_ii_rml_pet_enrollment_prod/prod/er_ii_rml_pet_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ii_rml_pet_enrollment_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ii_rml_pet_enrollment_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 9: hpsmart_email_metrics_creation_prod
+--------------------------------------------------------------------------------
+Job ID: 999777733165094
+Room Name: crm_room
+Schedule Interval: 0 05 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/hpsmart_email_metrics_creation_prod/dev/hpsmart_email_metrics_creation_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/hpsmart_email_metrics_creation_prod/prod/hpsmart_email_metrics_creation_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/hpsmart_email_metrics_creation_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/hpsmart_email_metrics_creation_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+--------------------------------------------------------------------------------
+JOB 10: er_email_dashboard_prod
+--------------------------------------------------------------------------------
+Job ID: 352197510148346
+Room Name: engineering_room
+Schedule Interval: 0 05 * * *
+Status: PASS
+
+File Validations:
+  ✓ DEV DAG: jobs/er_email_dashboard_prod/dev/er_email_dashboard_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ PROD DAG: jobs/er_email_dashboard_prod/prod/er_email_dashboard_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_email_dashboard_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_email_dashboard_prod_prod.yml
+    Status: PASS
+    Issues: None
+
+================================================================================
+VALIDATION CHECKS PERFORMED
+================================================================================
+
+For each job, the following validations were performed:
+
+1. DEV DAG File Validation
+   - File existence check
+   - Placeholder replacement verification (job_name, job_ID)
+   - Python syntax validation
+   - DAG structure validation
+
+2. PROD DAG File Validation
+   - File existence check
+   - Placeholder replacement verification (job_name, job_ID, S_I)
+   - Python syntax validation
+   - DAG structure validation
+   - Schedule interval correctness
+
+3. JSON Configuration File Validation
+   - File existence check
+   - JSON syntax validation
+   - Placeholder replacement verification (job_name, job_ID, S_I)
+   - Required fields validation (dev/prod sections)
+
+4. YAML Promotion File Validation
+   - File existence check
+   - YAML syntax validation
+   - Placeholder replacement verification (job_name, room_name)
+   - File path structure validation
+
+================================================================================
+FINAL VALIDATION STATUS
+================================================================================
+
+✓ ALL VALIDATIONS PASSED
+
+Total Files Validated: 40
+- DEV DAG Files: 10/10 PASS
+- PROD DAG Files: 10/10 PASS
+- JSON Config Files: 10/10 PASS
+- YAML Promotion Files: 10/10 PASS
+
+All generated files match Excel source data.
+All placeholders have been correctly replaced.
+All file paths follow the expected structure.
+All syntax validations passed.
+
+================================================================================
+END OF VALIDATION REPORT
+================================================================================
